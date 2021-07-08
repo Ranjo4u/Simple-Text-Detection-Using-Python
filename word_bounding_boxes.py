@@ -4,7 +4,7 @@ from pytesseract import Output
 
 pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
-img = cv2.imread("ur_mom.png")
+img = cv2.imread("image.png")
 
 image_data = pytesseract.image_to_data(img, output_type=Output.DICT)
 
