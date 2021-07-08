@@ -3,7 +3,7 @@ from pytesseract import pytesseract
 
 pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
-img = cv2.imread("ur_mom.png")
+img = cv2.imread("image.png")
 
 words_in_image = pytesseract.image_to_string(img)
 
